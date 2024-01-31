@@ -73,7 +73,7 @@ footer{
     width: 100%;
     background-color: beige;
     position: absolute;
-    height: 130px;
+    height: 70px;
     bottom: 0;
     left: 0;
 }
@@ -84,14 +84,14 @@ footer{
 
 #copy{
     justify-content: left;
-    width: 40%;
+    width: 100%;
     margin: 5px;
     /*justify-content: left;*/
 }
 
 #enlaces_footer{
     width: 50%;
-    margin-left: 85%;
+    margin-left: 75%;
 
 }
 
