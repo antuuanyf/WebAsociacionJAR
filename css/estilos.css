@@ -3,6 +3,17 @@
     padding: 0;
 }
 
+#pagina{
+    position: relative;
+    min-height: 100%;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 #logo{
     width: 100px;
     height: 100px;
@@ -52,4 +63,40 @@ header{
 #menu_navegacion > ul > li > a{
     display: block;
     padding: 8px;
+}
+
+main{
+    margin-top: 6%;
+}
+
+footer{
+    width: 100%;
+    background-color: beige;
+    position: absolute;
+    height: 130px;
+    bottom: 0;
+    left: 0;
+}
+
+#contenedor_footer{
+    display: flex;
+}
+
+#copy{
+    justify-content: left;
+    width: 40%;
+    margin: 5px;
+    /*justify-content: left;*/
+}
+
+#enlaces_footer{
+    width: 50%;
+    margin-left: 85%;
+
+}
+
+#enlaces_contacto > p{
+    margin-left: 20px;
+    float: inline-end;
+    text-align: right;
 }
