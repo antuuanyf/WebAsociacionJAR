@@ -14,6 +14,11 @@ html, body{
     height: 100%;
 }
 
+body{
+    display: grid;
+    grid-template-rows: [header] 12% [main] 78% [footer] 10%;
+}
+
 #logo{
     width: 100px;
     height: 100px;
@@ -26,11 +31,11 @@ html, body{
 }
 
 header{
-    max-height: 150px;
+    grid-row-start: header;
+    grid-row-end: main;
     width: 100%;
     top: 0;
     left: 0;
-    position: fixed;
 }
 
 #nombre_asociacion{
@@ -66,37 +71,32 @@ header{
 }
 
 main{
-    margin-top: 6%;
+    grid-row-start: main;
+    grid-row-end: footer;
 }
 
 footer{
+    grid-row-start: footer;
+    height: 100%;
     width: 100%;
     background-color: beige;
-    position: absolute;
-    height: 70px;
-    bottom: 0;
-    left: 0;
-}
-
-#contenedor_footer{
-    display: flex;
+    display: inline-grid;
+    grid-template-columns: [copy] 50% [enlaces] 50%;
 }
 
 #copy{
+    display: inline-block;
+    grid-column-start: copy;
+    grid-column-end: enlaces;
     justify-content: left;
     width: 100%;
     margin: 5px;
-    /*justify-content: left;*/
 }
 
 #enlaces_footer{
-    width: 50%;
-    margin-left: 75%;
-
-}
-
-#enlaces_contacto > p{
-    margin-left: 20px;
-    float: inline-end;
+    grid-column-start: enlaces;
+    width: 98%;
+    margin-right: 0%;
     text-align: right;
+
 }
