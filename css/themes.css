@@ -164,3 +164,27 @@
 }
 
 /*FIN DE LOS TEMAS DEL INDEX*/
+
+/*TEMAS DE REGISTRO*/
+/*Light mode*/
+.light_mode main #formulario {
+    background-color: #47B2FF3F;
+    color: black;
+}
+
+.light_mode #tabla {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+/*Dark mode*/
+.dark_mode main #formulario {
+    background-color: #1B2A41;
+    color: white;
+}
+
+.dark_mode #tabla {
+    background-color: #324A5F;
+    color: white;
+}
+/*FIN DE TEMAS DE REGISTRO*/
