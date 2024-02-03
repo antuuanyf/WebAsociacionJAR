@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  transition: .2s;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #B3DBFA;
+}
+
+/*HEADER*/
+
+header {
+  transition: .2s;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  min-width: 100%;
+  border-radius: 0 0 20px 20px;
+  z-index: 10;
+}
+
+.imgLogo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.logoTitulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.titulo {
+  margin: auto;
+}
+
+.menu {
+  margin: auto 0;
+}
+
+.menu>ul>li>a {
+  transition: .2s;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.menu>ul>li>a:hover {
+  transition: .2s;
+  transform: scale(1.1);
+  font-weight: bold;
+  background-color: #ffffff4b;
+  border-radius: 15px;
+  padding: 8px;
+  text-shadow: 0px 0px 10px white;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.menu li {
+  margin: 15px;
+}
+
+/*FIN DEL HEADER*/
+/*MAIN*/
+
+main {
+  min-height: 100%;
+  padding: 120px 20px 0px 20px;
+}
+
+.actividades,
+.actividades-ejemplo,
+.elementos-interes,
+.calendario {
+  transition: .2s;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.actividades h2,
+.actividades-ejemplo h2,
+.elementos-interes h2,
+.calendario h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.calendario ul {
+  padding: 15px 30px;
+}
+
+.actividades>.imagenes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  padding: 40px 20px;
+}
+
+.actividades>.imagenes>.img1,
+.img2 {
+  margin: 20px;
+}
+
+.actividades img {
+  margin-bottom: 30px;
+}
+
+.actividades-ejemplo>.imagenes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 40px 20px;
+}
+
+.actividades-ejemplo>.imagenes>.img3,
+.img4,
+.img5 {
+  margin: 20px;
+}
+
+.actividades-ejemplo img {
+  margin-bottom: 30px;
+}
+
+.elementos-interes>.imagenes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 40px 20px;
+}
+
+.elementos-interes>.imagenes>.img6,
+.img7 {
+  margin: 20px;
+}
+
+.elementos-interes img {
+  margin-bottom: 30px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7 {
+  transition: .2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: 800px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.322);
+}
+
+.img1:hover,
+.img2:hover,
+.img3:hover,
+.img4:hover,
+.img5:hover,
+.img6:hover,
+.img7:hover {
+  transform: scale(1.05);
+  transition: .2s;
+}
+
+/*FIN DEL MAIN*/
+/*FOOTER*/
+
+footer {
+  transition: .2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  bottom: 0;
+  min-width: 100%;
+  height: 100px;
+  border-radius: 20px 20px 0 0;
+  z-index: 10;
+}
+
+
+.propietarios {
+  transition: .2s;
+  text-align: center;
+}
+
+.enlaces {
+  text-align: center;
+}
+
+.enlaces>a {
+  transition: .2s;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.enlaces>a:hover {
+  transition: .2s;
+  transform: scale(1.1);
+  text-shadow: 2px 2px 15px white;
+  font-weight: bold;
+}
+
+/*FIN DEL FOOTER*/
+
+
+
+
+
+
+
+/*RESPONSIVE*/
+
+@media (max-width: 768px) {
+
+  /* Estilos para pantallas con una anchura menor a 768px */
+  header {
+    flex-direction: column;
+  }
+
+  main {
+    padding: 120px 20px 0px 20px;
+  }
+
+  .actividades,
+  .actividades-ejemplo,
+  .elementos-interes,
+  .calendario {
+    margin-bottom: 10px;
+  }
+
+  .actividades h2,
+  .actividades-ejemplo h2,
+  .elementos-interes h2,
+  .calendario h2 {
+    font-size: 18px;
+  }
+
+  .calendario ul {
+    padding: 10px 20px;
+  }
+
+  .actividades>.imagenes {
+    flex-direction: column;
+  }
+
+  .actividades-ejemplo>.imagenes {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+
+  /* Estilos para pantallas con una anchura menor a 480px */
+  header {
+    flex-direction: column;
+  }
+
+  main {
+    padding: 60px 20px 0px 20px;
+  }
+
+  .actividades,
+  .actividades-ejemplo,
+  .elementos-interes,
+  .calendario {
+    margin-bottom: 5px;
+  }
+
+  .actividades h2,
+  .actividades-ejemplo h2,
+  .elementos-interes h2,
+  .calendario h2 {
+    font-size: 16px;
+  }
+
+  .calendario ul {
+    padding: 5px 10px;
+  }
+
+  .actividades>.imagenes {
+    flex-direction: column;
+  }
+
+  .actividades-ejemplo>.imagenes {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .actividades h2,
+  .actividades-ejemplo h2,
+  .elementos-interes h2,
+  .calendario h2 {
+    font-size: 14px;
+  }
+
+  .actividades>.imagenes,
+  .actividades-ejemplo>.imagenes {
+    width: 100%;
+    height: auto;
+  }
+}
+
+#toggle {
+  display: none;
+}
+
+#label_toggle {
+  font-size: 2em;
+  cursor: pointer;
+}
