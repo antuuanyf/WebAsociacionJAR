@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imgs/favicon.png" type="image/x-icon">
+    <title>Asociacion De Deportes-Registro</title>
+</head>
+<body>
+    <main>
+        <div class="actividades">
+            <h2>Formulario de entrada a la asociación:</h2>
+            <form action="">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name">Nombre:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="surname">Apellidos:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="surname" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="age">Edad:</label>
+                        </td>
+                        <td>
+                            <input type="number" name="age" min="1" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="dni">Número de documento de identidad:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="dni" minlength="9" maxlength="9" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="mail">Correo electrónico:</label>
+                        </td>
+                        <td>
+                            <input type="email" name="mail" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="tlf">Teléfono:</label>
+                        </td>
+                        <td>
+                            <input type="tel" name="tlf">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="availability">Disponibilidad:</label>
+                        </td>
+                        <td>
+                            Lunes<input type="checkbox" name="availability" value="L">
+                            Martes<input type="checkbox" name="availability" value="M">
+                            Miércoles<input type="checkbox" name="availability" value="X">
+                            Jueves<input type="checkbox" name="availability" value="J">
+                            Viernes<input type="checkbox" name="availability" value="V">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="motivation">Motivación para entrar:</label>
+                        </td>
+                        <td>
+                            <select name="motivation">
+                                <option value="participar" name="motivation">Participar en actividades</option>
+                                <option value="preparar" name="motivation">Preparar actividades</option>
+                                <option value="acompañar" name="motivation">Acompañar a un menor</option>
+                                <option value="curiosidad" name="motivation">Curiosidad por la asociación</option>
+                                <option value="otro" name="motivation">Otro</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <textarea name="motivation" cols="23" rows="5" placeholder="En caso de seleecionar otro, escribalo aquí"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="remarks">Observaciones:</label>
+                        </td>
+                        <td>
+                            <textarea name="remarks" cols="30" rows="10" placeholder="Escriba sus observaciones"></textarea>                        
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label for="control">Acepto las condiciones de la asociación</label>
+                            <input type="checkbox" name="control" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Reiniciar">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for=""></label></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
