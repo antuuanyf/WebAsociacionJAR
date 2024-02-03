@@ -1,0 +1,166 @@
+/*TEMAS DEL INDEX*/
+/* Estilos especificos para light mode*/
+.light_mode {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+.light_mode header {
+    background-color: #4B8CB9;
+    color: black;
+}
+
+.light_mode header #menu a {
+    color: black;
+}
+
+.light_mode footer {
+    background-color: #4B8CB9;
+}
+
+.light_mode footer #propietarios {
+    color: black;
+}
+
+.light_mode footer #enlaces a {
+    color: black;
+}
+
+.light_mode main #actividades {
+    background-color: #47B2FF3F;
+    color: black;
+}
+
+.light_mode main #actividades-ejemplo {
+    background-color: #47B2FF3F;
+    color: black;
+}
+
+.light_mode main #elementos-interes {
+    background-color: #47B2FF3F;
+    color: black;
+}
+
+.light_mode main #calendario {
+    background-color: #47B2FF3F;
+    color: black;
+}
+
+.light_mode #img1 {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+.light_mode #img2 {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+.light_mode #img3 {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+.light_mode #img4 {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+.light_mode #img5 {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+.light_mode #img6 {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+.light_mode #img7 {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+/* Estilos específicos para dark mode */
+.dark_mode {
+    background-color: #2A4053;
+    color: white;
+}
+
+.dark_mode #menu a {
+    color: white;
+}
+
+.dark_mode header {
+    background-color: #0C1821;
+    color: white;
+}
+
+.dark_mode footer {
+    background-color: #0C1821;
+}
+
+.dark_mode footer #propietarios {
+    color: white;
+}
+
+.dark_mode footer #enlaces a {
+    color: white;
+}
+
+.dark_mode main #actividades {
+    background-color: #1B2A41;
+    color: white;
+}
+
+.dark_mode main #actividades-ejemplo {
+    background-color: #1B2A41;
+    color: white;
+}
+
+.dark_mode main #elementos-interes {
+    background-color: #1B2A41;
+    color: white;
+}
+
+.dark_mode main #calendario {
+    background-color: #1B2A41;
+    color: white;
+}
+
+.dark_mode #img1 {
+    background-color: #324A5F;
+    color: white;
+}
+
+.dark_mode #img2 {
+    background-color: #324A5F;
+    color: white;
+}
+
+.dark_mode #img3 {
+    background-color: #324A5F;
+    color: white;
+}
+
+.dark_mode #img4 {
+    background-color: #324A5F;
+    color: white;
+}
+
+.dark_mode #img5 {
+    background-color: #324A5F;
+    color: white;
+}
+
+.dark_mode #img6 {
+    background-color: #324A5F;
+    color: white;
+}
+
+.dark_mode #img7 {
+    background-color: #324A5F;
+    color: white;
+}
+
+/*FIN DE LOS TEMAS DEL INDEX*/

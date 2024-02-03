@@ -4,45 +4,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilos.css">
-    <title>Index</title>
+    <title>Asociacion De Deportes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="../imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/themes.css">
 </head>
 
-<body>
-        <header>
-            <div id="header_main">
-                <div id="contenedor_logo">
-                    <img src="../imgs/LOGO.JPG" alt="Logo de la asociación" id="logo">
-                </div>
-    
-                <div id="nombre_asociacion">
-                    <h1>Asociación de Deportes</h1>
-                </div>
-    
-                <div id="menu_navegacion">
-                    <ul>
-                        <li><a href="registro.html">Registro</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                        <li><a href="nosotros.html">Quiénes somos</a></li>
-                    </ul>
-                </div>
-            </div>
-        </header>
-    
-        <main>
-            hola
-        </main>
-    
-        <footer>
-                <div id="copy">
-                    <p>&copy;Propiedad de Javier, Raúl y Antonio</p>
-                </div>
-                <div id="enlaces_footer">
-                    <p><a href="https://site.educa.madrid.org/ies.villablanca.madrid/">IES Villablanca</a></p><br>
-                    <a href="mailto:raul.garcia132@educa.madrid.org,javier.lopez164@educa.madrid.org,antonio.monreal1@educa.madrid.org">Contacto</a>
-                </div>
-        </footer>
-    
+<body class="light_mode">
+    <header>
+        <section class="logoTitulo">
+            <img src="../imgs/logo.jpg" alt="LOGO" class="imgLogo">
+            <h1 class="titulo">ASOCIACI&Oacute;N<br>DE DEPORTES</h1>
+        </section>
+        <section class="menu" id="menu">
+            <ul>
+                <li><a href="#">REGISTRO&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-pen"></i></a></li>
+                <li><a href="#">CONTACTO&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-phone"></i></a></li>
+                <li><a href="#">QUI&Eacute;NES SOMOS&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-question"></i></a></li>
+                <li>
+                    <label for="toggle" id="label_toggle"><i class="fa-solid fa-moon"></i></label>
+                    <input type="checkbox" title="toggle" placeholder="dark mode" id="toggle">
+                </li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <section class="actividades" id="actividades">
+            <h2 style="font-size: 30px;">Actividades a Desarrollar</h2>
+            <p style="font-size: 20px;">
+                Nuestra asociación ofrece una amplia variedad de actividades deportivas para todos los niveles y edades.
+                Desde clases de yoga hasta competiciones de fútbol, tenemos algo para todos. ¡Explora nuestras opciones
+                y únete a la diversión!
+            </p>
+            <section class="imagenes" id="imagenes">
+                <section class="img1" id="img1">
+                    <img src="../imgs/yoga.jpeg" alt="Clase de yoga" style="width: 90%; height: 80%; border-radius: 30px;">
+                    <h2>¡Inscr&iacute;bete a clases de yoga!</h2>
+                </section>
+                <section class="img2" id="img2">
+                    <img src="../imgs/competicion.jpg" alt="Competicion de futbol"
+                        style="width: 90%; height: 80%; border-radius: 30px;">
+                    <h2>¡Inscr&iacute;bete al club de futbol!</h2>
+                </section>
+            </section>
+        </section>
+
+        <section class="actividades-ejemplo" id="actividades-ejemplo">
+            <h2 style="font-size: 30px;">Algunas de nuestras actividades del año pasado</h2>
+            <p style="font-size: 20px;">
+                Descubre algunas de nuestras actividades pasadas. Hemos organizado torneos de baloncesto, maratones y
+                eventos de ciclismo.
+                Aquí tienes algunos momentos destacados de nuestras actividades anteriores:
+            </p>
+            <section class="imagenes" id="imagenes">
+                <section class="img3" id="img3">
+                    <img src="../imgs/basket.jpg" alt="Competicion de basquet"
+                        style="width: 90%; height: 80%; border-radius: 30px;">
+                    <h2>Competici&oacute;n de basquet 2023</h2>
+                </section>
+                <section class="img4" id="img4">
+                    <img src="../imgs/maraton.jpg" alt="Maraton" style="width: 90%; height: 80%; border-radius: 30px;">
+                    <h2>Marat&oacute;n de Londres 2023</h2>
+                </section>
+                <section class="img5" id="img5">
+                    <img src="../imgs/ciclismo.jpg" alt="Torneo ciclista" style="width: 90%; height: 80%; border-radius: 30px;">
+                    <h2>Torneo de ciclismo 2023</h2>
+                </section>
+            </section>
+        </section>
+
+        <section class="elementos-interes" id="elementos-interes">
+            <h2 style="font-size: 30px;">Elementos de Interés</h2>
+            <p style="font-size: 20px;">
+                En nuestra asociación, contamos con la participación de atletas destacados y celebridades del mundo
+                deportivo. Además,
+                ofrecemos oportunidades para actividades retribuidas, como patrocinios y eventos especiales. ¡Conoce más
+                sobre nuestros
+                miembros y las ventajas de unirte!
+            </p>
+            <section class="imagenes" id="imagenes">
+                <section class="img6" id="img6">
+                    <img src="../imgs/famoso1.jpg" alt="Miembro Famoso 1" style="width: 90%; height: 80%; border-radius: 30px;">
+                    <h2>Alberto Contador</h2>
+                </section>
+                <section class="img7" id="img7">
+                    <img src="../imgs/famoso2.jpg" alt="Miembro Famoso 2" style="width: 90%; height: 80%; border-radius: 30px;">
+                    <h2>Andr&eacute;s Iniesta</h2>
+                </section>
+            </section>
+        </section>
+
+        <section class="calendario" id="calendario">
+            <h2>Calendario de Actividades</h2>
+            <p>
+                Consulta nuestro calendario para estar al tanto de todas las actividades programadas. Desde sesiones de
+                entrenamiento semanal
+                hasta eventos especiales, aquí encontrarás todo lo que necesitas para planificar tu participación en
+                nuestras
+                emocionantes actividades deportivas.
+            </p>
+            <ul>
+                <li>Clase de yoga los lunes a las 18:00</li>
+                <li>Torneo de fútbol el próximo sábado a las 14:00</li>
+                <li>Maratón anual el mes próximo</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <section class="propietarios" id="propietarios">
+            <p><b>&copy;Propiedad de Javier, Ra&uacute;l y Antonio</b></p>
+        </section>
+        <section class="enlaces" id="enlaces">
+            <a href="#">IES Villablanca</a>
+            <br>
+            <a href="#">Cont&aacute;ctenos</a>
+        </section>
+    </footer>
+    <script src="../js/change_theme.js"></script>
 </body>
 
 </html>
