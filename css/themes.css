@@ -198,3 +198,147 @@
     color: white;
 }
 /*FIN DE TEMAS DE REGISTRO*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Temas de contacto*/
+/*Light mode*/
+.light_mode main #lugares {
+    background-color: #47B2FF3F;
+    color: black;
+}
+
+.light_mode #sitios {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+.light_mode main #ubicacion {
+    background-color: #47B2FF3F;
+    color: black;
+}
+
+.light_mode #mapa {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+.light_mode main #correo {
+    background-color: #47B2FF3F;
+    color: black;
+}
+
+.light_mode #direccion_correo{
+    background-color: #CBDEF1;
+    color: black;
+}
+
+.light_mode #direccion_correo a {
+    color: black;
+}
+
+.light_mode main #desarrolladores {
+    background-color: #47B2FF3F;
+    color: black;
+}
+
+.light_mode #nombres {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+/*Dark mode*/
+.dark_mode main #lugares {
+    background-color: #1B2A41;
+    color: white;
+}
+
+.dark_mode #sitios {
+    background-color: #324A5F;
+    color: white;
+}
+
+.dark_mode main #ubicacion {
+    background-color: #1B2A41;
+    color: white;
+}
+
+.dark_mode #mapa {
+    background-color: #324A5F;
+    color: white;
+}
+
+.dark_mode main #correo {
+    background-color: #1B2A41;
+    color: white;
+}
+
+.dark_mode #direccion_correo {
+    background-color: #324A5F;
+    color: white;
+}
+
+.dark_mode #direccion_correo a {
+    color: white;
+}
+
+.dark_mode main #desarrolladores {
+    background-color: #1B2A41;
+    color: white;
+}
+
+.dark_mode #nombres {
+    background-color: #324A5F;
+    color: white;
+}
+
+/*Fin temas de contacto*/
+
+
+
+/*Temas de quienes_somos*/
+/*Light mode*/
+.light_mode main #descripcion {
+    background-color: #47B2FF3F;
+    color: black;
+}
+
+.light_mode #imagen {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+
+/*Dark mode*/
+.dark_mode main #descripcion {
+    background-color: #1B2A41;
+    color: white;
+}
+
+.dark_mode #imagen {
+    background-color: #324A5F;
+    color: white;
+}
+
+
+/*Fin de temas de quienes_somos*/
