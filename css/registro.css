@@ -83,38 +83,31 @@ main {
     padding: 120px 20px 0px 20px;
 }
 
-.formulario{
+.formulario, .datos{
     display: flex;
     flex-direction: column;
-    transition: .2s;
     margin-bottom: 20px;
     padding: 15px;
     border-radius: 10px;
+    width: 98%;
+
 }
 
-.formulario > h2{
+.formulario > h2, .datos > h2{
     margin-bottom: 20px;
 }
 
-.formulario > .tabla{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px;
-    padding: 40px 20px;
-}
-
 .tabla{
-    transition: .2s;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 600px;
-    width: 900px;
+    height: 100%;
+    width: 60%;
+    padding: 20px;
     border-radius: 30px;
     box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.322);
+    margin: auto;
 }
 
 .tabla .centrado{
@@ -130,6 +123,18 @@ input, select, textarea{
 
 label{
     padding: 20px;
+}
+
+.prueba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.322);
+    margin: auto;
 }
 /*FIN DEL MAIN*/
 
