@@ -34,129 +34,179 @@
     <main>
         <section class="formulario" id="formulario">
             <h2>Formulario de entrada a la asociación:</h2>
-                <form action="">
-                    <table class="tabla" id="tabla">
-                        <tr>
-                            <td>
-                                <label for="name">Nombre:</label>
-                            </td>
-                            <td>
-                                <input type="text" name="name" required>
-                            </td>
-                        </tr>
+            <form action="" id="form">
+                <table class="tabla" id="tabla">
+                    <tr>
+                        <td>
+                            <label for="name">Nombre:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" id="name" required>
+                        </td>
+                    </tr>
 
-                        <tr>
-                            <td>
-                                <label for="surname">Apellidos:</label>
-                            </td>
-                            <td>
-                                <input type="text" name="surname" required>
-                            </td>
-                        </tr>
+                    <tr>
+                        <td>
+                            <label for="surname">Apellidos:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="surname" id="surname" required>
+                        </td>
+                    </tr>
 
-                        <tr>
-                            <td>
-                                <label for="age">Edad:</label>
-                            </td>
-                            <td>
-                                <input type="number" name="age" min="1" required>
-                            </td>
-                        </tr>
+                    <tr>
+                        <td>
+                            <label for="age">Edad:</label>
+                        </td>
+                        <td>
+                            <input type="number" name="age" min="1" id="age" required>
+                        </td>
+                    </tr>
 
-                        <tr>
-                            <td>
-                                <label for="dni">Número de documento de identidad:</label>
-                            </td>
-                            <td>
-                                <input type="text" name="dni" minlength="9" maxlength="9" required>
-                            </td>
-                        </tr>
+                    <tr>
+                        <td>
+                            <label for="dni">Número de documento de identidad:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="dni" minlength="9" maxlength="9" id="dni" required>
+                        </td>
+                    </tr>
 
-                        <tr>
-                            <td>
-                                <label for="mail">Correo electrónico:</label>
-                            </td>
-                            <td>
-                                <input type="email" name="mail" required>
-                            </td>
-                        </tr>
+                    <tr>
+                        <td>
+                            <label for="mail">Correo electrónico:</label>
+                        </td>
+                        <td>
+                            <input type="email" name="mail" id="mail" required>
+                        </td>
+                    </tr>
 
-                        <tr>
-                            <td>
-                                <label for="tlf">Teléfono:</label>
-                            </td>
-                            <td>
-                                <input type="tel" name="tlf" minlength="9" maxlength="9">
-                            </td>
-                        </tr>
+                    <tr>
+                        <td>
+                            <label for="tlf">Teléfono:</label>
+                        </td>
+                        <td>
+                            <input type="tel" name="tlf" minlength="9" maxlength="9" id="tlf">
+                        </td>
+                    </tr>
 
-                        <tr>
-                            <td>
-                                <label for="availability">Disponibilidad:</label>
-                            </td>
-                            <td>
-                                Lunes<input type="checkbox" name="availability" value="L">
-                                Martes<input type="checkbox" name="availability" value="M">
-                                Miércoles<input type="checkbox" name="availability" value="X">
-                                Jueves<input type="checkbox" name="availability" value="J">
-                                Viernes<input type="checkbox" name="availability" value="V">
-                                Sábado<input type="checkbox" name="availability" value="S">
-                            </td>
-                        </tr>
+                    <tr>
+                        <td>
+                            <label for="availability">Disponibilidad:</label>
+                        </td>
+                        <td>
+                            Lunes<input type="checkbox" name="availability" value="L">
+                            Martes<input type="checkbox" name="availability" value="M">
+                            Miércoles<input type="checkbox" name="availability" value="X">
+                            Jueves<input type="checkbox" name="availability" value="J">
+                            Viernes<input type="checkbox" name="availability" value="V">
+                            Sábado<input type="checkbox" name="availability" value="S">
+                        </td>
+                    </tr>
 
-                        <tr>
-                            <td>
-                                <label for="motivation">Motivación para entrar:</label>
-                            </td>
-                            <td>
-                                <select name="motivation">
-                                    <option value="participar" name="motivation">Participar en actividades</option>
-                                    <option value="preparar" name="motivation">Preparar actividades</option>
-                                    <option value="acompañar" name="motivation">Acompañar a un menor</option>
-                                    <option value="curiosidad" name="motivation">Curiosidad por la asociación</option>
-                                    <option value="otro" name="motivation">Otro</option>
-                                </select>
-                            </td>
-                        </tr>
+                    <tr>
+                        <td>
+                            <label for="motivation">Motivación para entrar:</label>
+                        </td>
+                        <td>
+                            <select id="motivation">
+                                <option value="participar" name="motivation" class="entrar">Participar en actividades
+                                </option>
+                                <option value="preparar" name="motivation" class="entrar">Preparar actividades</option>
+                                <option value="acompañar" name="motivation" class="entrar">Acompañar a un menor</option>
+                                <option value="curiosidad" name="motivation" class="entrar">Curiosidad por la asociación
+                                </option>
+                                <option value="otro" name="motivation" class="entrar">Otro</option>
+                            </select>
+                        </td>
+                    </tr>
 
-                        <tr>
-                            <td></td>
-                            <td>
-                                <textarea name="motivation" cols="23" rows="5"
-                                    placeholder="En caso de seleecionar otro, escribalo aquí"></textarea>
-                            </td>
-                        </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <textarea name="motivation" cols="23" rows="5"
+                                placeholder="En caso de seleecionar otro, escribalo aquí" id="motivation"
+                                class="entrar"></textarea>
+                        </td>
+                    </tr>
 
-                        <tr>
-                            <td>
-                                <label for="remarks">Observaciones:</label>
-                            </td>
-                            <td>
-                                <textarea name="remarks" cols="30" rows="10"
-                                    placeholder="Escriba sus observaciones"></textarea>
-                            </td>
-                        </tr>
+                    <tr>
+                        <td>
+                            <label for="remarks">Observaciones:</label>
+                        </td>
+                        <td>
+                            <textarea name="remarks" cols="30" rows="10" placeholder="Escriba sus observaciones"
+                                id="remarks"></textarea>
+                        </td>
+                    </tr>
 
-                        <tr>
-                            <td colspan="2" class="centrado">
-                                <label for="control">Acepto las condiciones de la asociación</label>
-                                <input type="checkbox" name="control" required>
-                            </td>
-                        </tr>
+                    <tr>
+                        <td colspan="2" class="centrado">
+                            <label for="control">Acepto las condiciones de la asociación</label>
+                            <input type="checkbox" name="control" id="control" required>
+                        </td>
+                    </tr>
 
-                        <tr>
-                            <td colspan="2" class="centrado">
-                                <input type="submit" value="Enviar">
-                                <input type="reset" value="Reiniciar">
-                            </td>
-                        </tr>
+                    <tr>
+                        <td colspan="2" class="centrado">
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Reiniciar">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+        <section id="datos" class="datos">
+            <h2>Datos rellenados en el formulario:</h2>
+            <script>
+                // Obtenemos el elemento formulario por su id
+                var form = document.getElementById("form");
+                // Añadimos un evento submit al formulario
+                form.addEventListener("submit", function (evento) {
+                    // Evitamos que el formulario se envíe y se recargue la página
+                    evento.preventDefault();
+                    // Obtenemos los elementos del formulario por su id
+                    var nombre = document.getElementById("name").value;
+                    var apellido = document.getElementById("surname").value;
+                    var edad = document.getElementById("age").value;
+                    var documento = document.getElementById("dni").value;
+                    var correo = document.getElementById("mail").value;
+                    var telefono = document.getElementById("tlf").value;
+                    var disponibilidad = document.getElementsByName("availability");
+                    var checkeds = "";
+                    for (var i = 0; i < disponibilidad.length; i++) {
+                        if (disponibilidad[i].checked) {
+                            checkeds += disponibilidad[i].value + " ";
+                        }
+                    }
 
-                        <tr>
-                            <td><label for=""></label></td>
-                            <td></td>
-                        </tr>
-                    </table>
-                </form>
+                    var motivacion = document.getElementsByClassName("entrar");
+                    var seleccionado = "";
+                    for (var i = 0; i < motivacion.length; i++) {
+                        if (motivacion[i].selected) {
+                            seleccionado = motivacion[i].value;
+                            if (motivacion[i].value == "otro")
+                                seleccionado += ": " + motivacion[i + 1].value;
+                        }
+                    }
+
+                    var observaciones = document.getElementById("remarks").value;
+
+
+                    // Creamos un elemento HTML para mostrar los datos
+                    var resultado = document.createElement("section");
+                    resultado.classList.add("prueba");
+                    resultado.setAttribute("id", "prueba");
+                    // Añadimos el contenido al elemento
+                    resultado.innerHTML = "Nombre: " + nombre + "<br>" +
+                        "Apellidos: " + apellido + "<br>" +
+                        "Edad: " + edad + "<br>" + "DNI: " + documento + "<br>" + "Correo electrónico: " + correo + "<br>" +
+                        "Teléfono: " + telefono + "<br>" + "Disponibilidad: " + checkeds + "<br>" + "Motivación para entrar: " + seleccionado + "<br>" +
+                        "Observaciones: " + observaciones;
+                    // Añadimos el elemento dentro del section
+                    datos.appendChild(resultado);
+                });
+            </script>
         </section>
     </main>
     <footer>
@@ -164,9 +214,10 @@
             <p><b>&copy;Propiedad de Javier, Ra&uacute;l y Antonio</b></p>
         </section>
         <section class="enlaces" id="enlaces">
-            <a href="https://site.educa.madrid.org/ies.villablanca.madrid/">IES Villablanca</a>
+            <a href="https://site.educa.madrid.org/ies.villablanca.madrid/" target="_blank">IES Villablanca</a>
             <br>
-            <a href="mailto:raul.garcia132@educa.madrid.org, antonio.monreal1@educa.madrid.org, javier.lopez176@educa.madrid.org">Cont&aacute;ctenos</a>
+            <a
+                href="mailto:raul.garcia132@educa.madrid.org, antonio.monreal1@educa.madrid.org, javier.lopez176@educa.madrid.org">Cont&aacute;ctenos</a>
         </section>
     </footer>
     <script src="../js/change_theme.js"></script>

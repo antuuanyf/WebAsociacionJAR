@@ -172,7 +172,17 @@
     color: black;
 }
 
+.light_mode main #datos {
+    background-color: #47B2FF3F;
+    color: black;
+}
+
 .light_mode #tabla {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+.light_mode #prueba{
     background-color: #CBDEF1;
     color: black;
 }
@@ -183,7 +193,17 @@
     color: white;
 }
 
+.dark_mode main #datos {
+    background-color: #1B2A41;
+    color: white;
+}
+
 .dark_mode #tabla {
+    background-color: #324A5F;
+    color: white;
+}
+
+.dark_mode #prueba {
     background-color: #324A5F;
     color: white;
 }
