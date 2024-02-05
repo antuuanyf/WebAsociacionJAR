@@ -1,45 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilos.css">
-    <title>Contacto</title>
+    <meta name="author" content="Javier López Fernández, Raúl García López, Antonio Monreal Díaz">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="../css/themes.css">
+    <title>Asociacion De Deportes-Contacto</title>
 </head>
-<body>
 
+<body class="light_mode">
     <header>
-        <div id="header_main">
-            <div id="contenedor_logo">
-                <a href="index.html"><img src="../imgs/LOGO.JPG" alt="Logo de la asociación" id="logo"></a>
-            </div>
-
-            <div id="nombre_asociacion">
-                <h1>Asociación de Deportes</h1>
-            </div>
-
-            <div id="menu_navegacion">
-                <ul>
-                    <li><a href="registro.html">Registro</a></li>
-                    <li><a href="nosotros.html">Quiénes somos</a></li>
-                </ul>
-            </div>
-        </div>
+        <section class="logoTitulo">
+            <a href="index.html"><img src="../imgs/logo.jpg" alt="LOGO" class="imgLogo"></a>
+            <h1 class="titulo">ASOCIACI&Oacute;N<br>DE DEPORTES</h1>
+        </section>
+        <section class="menu" id="menu">
+            <ul>
+                <li><a href="registro.html">REGISTRO&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-pen"></i></a></li>
+                <li><a href="#">QUI&Eacute;NES SOMOS&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-question"></i></a></li>
+                <li>
+                    <label for="toggle" id="label_toggle"><i class="fa-solid fa-moon"></i></label>
+                    <input type="checkbox" title="toggle" placeholder="dark mode" id="toggle">
+                </li>
+            </ul>
+        </section>
     </header>
 
     <main>
-        hola
+
+        <section class="lugares" id="lugares">
+            <h2>Imágenes de los alrededores</h2>
+            <section class="sitios" id="sitios">
+                <br>
+            </section>
+        </section>
+
+        <section class="ubicacion" id="ubicacion">
+            <h2>Ubicación de la asociación</h2>
+            <section class="mapa" id="mapa">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.8081579698423!2d-3.6023456074239895!3d40.40778684002589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42255d3a247575%3A0xd8a0a40edf810cff!2sIES%20Villablanca!5e0!3m2!1ses!2ses!4v1706886338947!5m2!1ses!2ses"
+                width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            </section>
+
+        </section>
+
+        <section class="correo" id="correo">
+            <h2>Correos de contacto</h2>
+            <section class="direccion_correo" id="direccion_correo">
+                <section class="enlaces" id="enlaces">
+                <a href="mailto:javier.lopez164@educa.madrid.org">javier.lopez164@educa.madrid.org</a>
+                <a href="mailto:raul.garcia132@educa.madrid.org">raul.garcia132@educa.madrid.org</a>
+                <a href="mailto:antonio.monreal1@educa.madrid.org">antonio.monreal1@educa.madrid.org</a>
+                </section>
+            </section>
+        </section>
+
+        <section class="desarrolladores" id="desarrolladores">
+            <h2>Desarrolladores de la web</h2>
+            <section class="nombres" id="nombres">
+                <p>Javier L&oacute;pez Fern&aacute;ndez</p>
+                <p>Ra&uacute;l Garc&iacute;a L&oacute;pez</p>
+                <p>Antonio Monreal D&iacute;az</p>
+            </section>
+        </section>
+
     </main>
 
     <footer>
-            <div id="copy">
-                <p>&copy;Propiedad de Javier, Raúl y Antonio</p>
-            </div>
-            <div id="enlaces_footer">
-                <p><a href="https://site.educa.madrid.org/ies.villablanca.madrid/">IES Villablanca</a></p><br>
-                <a href="mailto:raul.garcia132@educa.madrid.org,javier.lopez164@educa.madrid.org,antonio.monreal1@educa.madrid.org">Contacto</a>
-            </div>
+        <section class="propietarios" id="propietarios">
+            <p><b>&copy;Propiedad de Javier, Ra&uacute;l y Antonio</b></p>
+        </section>
+        <section class="enlaces" id="enlaces">
+            <a href="https://site.educa.madrid.org/ies.villablanca.madrid/">IES Villablanca</a>
+            <br>
+            <a href="mailto:raul.garcia132@educa.madrid.org, antonio.monreal1@educa.madrid.org, javier.lopez176@educa.madrid.org">Cont&aacute;ctenos</a>
+        </section>
     </footer>
+    <script src="../js/change_theme.js"></script>
 
 </body>
+
 </html>
