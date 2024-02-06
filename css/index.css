@@ -158,7 +158,9 @@ main {
   margin-bottom: 30px;
 }
 
-.img3, .img4, .img5 {
+.img3,
+.img4,
+.img5 {
   transition: .2s;
   display: flex;
   flex-direction: column;
@@ -171,7 +173,10 @@ main {
   box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.322);
 }
 
-.img1, .img2, .img6, .img7 {
+.img1,
+.img2,
+.img6,
+.img7 {
   transition: .2s;
   display: flex;
   flex-direction: column;
@@ -212,12 +217,14 @@ main {
 table {
   width: auto;
   height: auto;
-  border-collapse: collapse;
 }
 
 td {
-  border-collapse: collapse;
-  border-style: solid;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #000;
+  border-radius: 10px;
+  /* border-style: solid; */
   font-size: 20px;
   padding: 5px;
 }
