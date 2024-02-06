@@ -23,7 +23,7 @@
             <ul>
                 <li><a href="index.html">INICIO&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-house"></i></a></li>
                 <li><a href="contacto.html">CONTACTO&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-phone"></i></a></li>
-                <li><a href="#">QUI&Eacute;NES SOMOS&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-question"></i></a></li>
+                <li><a href="quienes_somos.html">QUI&Eacute;NES SOMOS&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-question"></i></a></li>
                 <li>
                     <label for="toggle" id="label_toggle"><i class="fa-solid fa-moon"></i></label>
                     <input type="checkbox" title="toggle" placeholder="dark mode" id="toggle">
@@ -149,8 +149,8 @@
 
                     <tr>
                         <td colspan="2" class="centrado">
-                            <input type="submit" value="Enviar">
-                            <input type="reset" value="Reiniciar">
+                            <input type="submit" value="Enviar" class="botones">
+                            <input type="reset" value="Reiniciar" class="botones">
                         </td>
                     </tr>
                 </table>
@@ -195,8 +195,8 @@
 
                     // Creamos un elemento HTML para mostrar los datos
                     var resultado = document.createElement("section");
-                    resultado.classList.add("prueba");
-                    resultado.setAttribute("id", "prueba");
+                    resultado.classList.add("mostrar");
+                    resultado.setAttribute("id", "mostrar");
                     // Añadimos el contenido al elemento
                     resultado.innerHTML = "Nombre: " + nombre + "<br>" +
                         "Apellidos: " + apellido + "<br>" +
