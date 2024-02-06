@@ -219,7 +219,7 @@ table {
   height: auto;
 }
 
-td {
+td, th {
   border-collapse: separate;
   border-spacing: 0;
   border: 2px solid #000;
@@ -227,6 +227,16 @@ td {
   /* border-style: solid; */
   font-size: 20px;
   padding: 5px;
+}
+
+#vacio{
+  border-style: none;
+}
+
+#descanso > td{
+  background-color: rgba(128, 128, 128, 0.377);
+  border-style: none;
+  height: 20px;
 }
 
 /*FIN DEL MAIN*/
