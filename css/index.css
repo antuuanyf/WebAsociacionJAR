@@ -208,7 +208,7 @@ main {
   justify-content: center;
   margin: 20px auto;
   height: 50%;
-  width: 60%;
+  width: 55%;
   border-radius: 30px;
   padding: 20px;
   box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.322);
@@ -222,7 +222,7 @@ table {
 td, th {
   border-collapse: separate;
   border-spacing: 0;
-  border: 2px solid #000;
+  border: 2px solid;
   border-radius: 10px;
   /* border-style: solid; */
   /* font-size: 20px; */
