@@ -82,6 +82,34 @@ main {
     text-align: center;
 }
 
+.noticia_futbol{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transition: .2s;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.noticia_futbol > h2{
+  margin-bottom: 20px;
+}
+
+.texto_futbol{
+  transition: .2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 600px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.322);
+  margin: auto;
+}
+
 /*FIN DEL MAIN*/
 /*FOOTER*/
 
