@@ -374,23 +374,23 @@
 
 /*Temas de noticias*/
 /*Light mode*/
-.light_mode main #noticia_futbol {
+.light_mode main #noticias {
     background-color: #47B2FF3F;
     color: black;
 }
 
-.light_mode #texto_futbol {
+.light_mode #texto {
     background-color: #CBDEF1;
     color: black;
 }
 
 /*Dark mode*/
-.dark_mode main #noticia_futbol {
+.dark_mode main #noticias {
     background-color: #1B2A41;
     color: white;
 }
 
-.dark_mode #texto_futbol {
+.dark_mode #texto {
     background-color: #324A5F;
     color: white;
 }

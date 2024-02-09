@@ -82,7 +82,7 @@ main {
     text-align: center;
 }
 
-.noticia_futbol{
+.noticias{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -93,23 +93,32 @@ main {
   border-radius: 10px;
 }
 
-.noticia_futbol > h2{
+.noticias > h2{
   margin-bottom: 20px;
 }
 
-.texto_futbol{
+.texto{
   transition: .2s;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 700px;
-  width: 600px;
+  height: 100%;
+  width: 800px;
   border-radius: 30px;
   box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.322);
   margin: auto;
 }
 
+figcaption{
+  margin: 50px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+figcaption > h2{
+  text-align: center;
+}
 /*FIN DEL MAIN*/
 /*FOOTER*/
 
