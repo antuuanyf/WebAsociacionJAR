@@ -116,6 +116,12 @@ main {
     height: 400px;
 }
 
+figcaption{
+  margin: 50px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
 /*Fin Main*/
 
 /*FOOTER*/

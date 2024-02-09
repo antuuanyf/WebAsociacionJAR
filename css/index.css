@@ -235,10 +235,34 @@ td, th {
   border-style: none;
 }
 
-#descanso > td{
+.descanso{
   background-color: rgba(128, 128, 128, 0.377);
   border-style: none;
   height: 5vh;
+}
+
+.basket{
+  background-color: rgba(255, 166, 0, 0.589);
+}
+
+.futbol{
+  background-color: rgba(128, 0, 128, 0.514);
+}
+
+.yoga{
+  background-color: rgba(255, 192, 203, 0.562);
+}
+
+.ciclismo{
+  background-color: rgba(0, 128, 0, 0.589);
+}
+
+.atletismo{
+  background-color: rgba(255, 0, 0, 0.548);
+}
+
+.torneo{
+  background-color: rgba(255, 255, 0, 0.555);
 }
 
 /*FIN DEL MAIN*/
