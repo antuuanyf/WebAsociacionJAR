@@ -379,7 +379,12 @@
     color: black;
 }
 
-.light_mode #texto {
+.light_mode #texto1 {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+.light_mode #texto2 {
     background-color: #CBDEF1;
     color: black;
 }
@@ -390,7 +395,12 @@
     color: white;
 }
 
-.dark_mode #texto {
+.dark_mode #texto1 {
+    background-color: #324A5F;
+    color: white;
+}
+
+.dark_mode #texto2 {
     background-color: #324A5F;
     color: white;
 }
