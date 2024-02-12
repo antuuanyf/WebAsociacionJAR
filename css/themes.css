@@ -255,7 +255,17 @@
     color: black;
 }
 
-.light_mode #sitios {
+.light_mode #sitio1 {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+.light_mode #sitio2 {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+.light_mode #sitio3 {
     background-color: #CBDEF1;
     color: black;
 }
@@ -300,7 +310,17 @@
     color: white;
 }
 
-.dark_mode #sitios {
+.dark_mode #sitio1 {
+    background-color: #324A5F;
+    color: white;
+}
+
+.dark_mode #sitio2 {
+    background-color: #324A5F;
+    color: white;
+}
+
+.dark_mode #sitio3 {
     background-color: #324A5F;
     color: white;
 }
