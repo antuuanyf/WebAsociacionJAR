@@ -243,27 +243,50 @@ td, th {
 
 .basket{
   background-color: rgba(255, 166, 0, 0.589);
+  transition: 0.2s;
 }
 
 .futbol{
   background-color: rgba(128, 0, 128, 0.514);
+  transition: 0.2s;
 }
 
 .yoga{
   background-color: rgba(255, 192, 203, 0.562);
+  transition: 0.2s;
 }
 
 .ciclismo{
   background-color: rgba(0, 128, 0, 0.589);
+  transition: 0.2s;
 }
 
 .atletismo{
   background-color: rgba(255, 0, 0, 0.548);
+  transition: 0.2s;
 }
 
 .torneo{
   background-color: rgba(255, 255, 0, 0.555);
+  transition: 0.2s;
 }
+
+.ciclismo:hover, .basket:hover, .yoga:hover, .futbol:hover, .atletismo:hover, .torneo:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.ciclismo:hover > button, .basket:hover > button, .yoga:hover > button, .futbol:hover > button, .atletismo:hover > button, .torneo:hover > button{
+  visibility: visible;
+}
+
+button{
+  border-radius: 15px;
+  padding: 3px;
+  border-style: none;
+  visibility: hidden;
+}
+
 
 /*FIN DEL MAIN*/
 /*FOOTER*/
