@@ -130,10 +130,10 @@
                     </tr>
                     <tr>
                         <th>09:00 - 10:00</th>
-                        <td class="ciclismo">Ciclismo <br><button id="a">Apúntate</button></td>
-                        <td class="yoga">Yoga  <br><button id="a">Apúntate</button></td>
+                        <td class="ciclismo">Ciclismo <br><button onclick="apuntarseActividad()">Apúntate</button></td>
+                        <td class="yoga">Yoga  <br><button onclick="apuntarseActividad()">Apúntate</button></td>
                         <td></td>
-                        <td class="basket">Entrenamiento <br> de basket  <br><button id="a">Apúntate</button></td>
+                        <td class="basket">Entrenamiento <br> de basket  <br><button onclick="apuntarseActividad()">Apúntate</button></td>
                         <td></td>
                         <th rowspan="4" class="descanso"></th>
                     </tr>
@@ -141,25 +141,25 @@
                         <th>10:00 - 11:00</th>
                         <td></td>
                         <td></td>
-                        <td class="basket">Entrenamiento <br> de basket  <br><button id="a">Apúntate</button></td>
+                        <td class="basket">Entrenamiento <br> de basket  <br><button onclick="apuntarseActividad()">Apúntate</button></td>
                         <td></td>
                         <td></td>
                     </tr>
                     <tr>
                         <th>11:00 - 12:00</th>
                         <td></td>
-                        <td class="atletismo">Atletismo  <br><button id="a">Apúntate</button></td>
+                        <td class="atletismo">Atletismo  <br><button onclick="apuntarseActividad()">Apúntate</button></td>
                         <td></td>
                         <td></td>
-                        <td class="yoga">Yoga  <br><button id="a">Apúntate</button></td>
+                        <td class="yoga">Yoga  <br><button onclick="apuntarseActividad()">Apúntate</button></td>
                     </tr>
                     <tr>
                         <th>12:00 - 13:00</th>
-                        <td class="basket">Entrenamiento <br> de basket  <br><button id="a">Apúntate</button></td>
+                        <td class="basket">Entrenamiento <br> de basket  <br><button onclick="apuntarseActividad()">Apúntate</button></td>
                         <td></td>
-                        <td class="yoga">Yoga  <br><button id="a">Apúntate</button></td>
+                        <td class="yoga">Yoga  <br><button onclick="apuntarseActividad()">Apúntate</button></td>
                         <td></td>
-                        <td class="atletismo">Atletismo  <br><button id="a">Apúntate</button></td>
+                        <td class="atletismo">Atletismo  <br><button onclick="apuntarseActividad()">Apúntate</button></td>
                     </tr>
                     <tr>
                         <th colspan="7" class="descanso">&nbsp;</th>
@@ -169,51 +169,35 @@
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td class="yoga">Yoga  <br><button id="a">Apúntate</button></td>
+                        <td class="yoga">Yoga  <br><button onclick="apuntarseActividad()">Apúntate</button></td>
                         <td></td>
-                        <td rowspan="4" class="torneo">Torneo de <br> f&uacute;tbol  <br><button id="a">Apúntate</button></td>
+                        <td rowspan="4" class="torneo">Torneo de <br> f&uacute;tbol  <br><button onclick="apuntarseActividad()">Apúntate</button></td>
                     </tr>
                     <tr>
                         <th>16:00 - 17:00</th>
-                        <td class="futbol">Entrenamiento <br> de f&uacute;tbol  <br><button id="a">Apúntate</button></td>
+                        <td class="futbol">Entrenamiento <br> de f&uacute;tbol  <br><button onclick="apuntarseActividad()">Apúntate</button></td>
                         <td></td>
-                        <td class="futbol">Entrenamiento <br> de f&uacute;tbol  <br><button id="a">Apúntate</button></td>
+                        <td class="futbol">Entrenamiento <br> de f&uacute;tbol  <br><button onclick="apuntarseActividad()">Apúntate</button></td>
                         <td></td>
                         <td></td>
                     </tr>
                     <tr>
                         <th>17:00 - 18:00</th>
                         <td></td>
-                        <td class="basket">Entrenamiento <br> de basket  <br><button id="a">Apúntate</button></td>
+                        <td class="basket">Entrenamiento <br> de basket  <br><button onclick="apuntarseActividad()">Apúntate</button></td>
                         <td></td>
-                        <td rowspan="2" class="ciclismo">Ciclismo  <br><button id="a">Apúntate</button></td>
+                        <td rowspan="2" class="ciclismo">Ciclismo  <br><button onclick="apuntarseActividad()">Apúntate</button></td>
                         <td></td>
                     </tr>
                     <tr>
                         <th>18:00 - 19:00</th>
-                        <td class="yoga">Yoga  <br> <button id="a">Apúntate</button></td>
+                        <td class="yoga">Yoga  <br> <button onclick="apuntarseActividad()">Apúntate</button></td>
                         <td></td>
-                        <td class="atletismo">Atletismo  <br><button id="a">Apúntate</button></td>
-                        <td class="futbol">Entrenamiento <br> de f&uacute;tbol  <br><button class="a">Apúntate</button></td>
+                        <td class="atletismo">Atletismo  <br><button onclick="apuntarseActividad()">Apúntate</button></td>
+                        <td class="futbol">Entrenamiento <br> de f&uacute;tbol  <br><button onclick="apuntarseActividad()">Apúntate</button></td>
                     </tr>
                 </table>
-                <script>
-                    var button = document.getElementById("a");
 
-                    button.addEventListener('click', apuntarseActividad)
-
-                    function apuntarseActividad() {
-                        var nombre = prompt("Escribe tu nombre: ");
-                        var apellidos = prompt("Escribe tus apellidos: ");
-                        var dni = prompt("Escribe tu documento de identidad: ");
-                        var correo = prompt("Escribe tu correo electrónico: ");
-
-                        var correcto = confirm("Nombre: " + nombre + "\nApellidos:" + apellidos + "\nDocumento de identidad" + dni + "\nCorreo electrónico: " + correo);
-
-                        if (correcto)
-                            alert("Apuntado!! \nLe llegará un email de confirmación!")
-                    }
-                </script>
             </section>
         </section>
     </main>
@@ -228,6 +212,7 @@
                 href="mailto:raul.garcia132@educa.madrid.org, antonio.monreal1@educa.madrid.org, javier.lopez176@educa.madrid.org">Cont&aacute;ctenos</a>
         </section>
     </footer>
+    <script src="../js/registrarse_actividad.js"></script>
     <script src="../js/change_theme.js"></script>
 </body>
 
