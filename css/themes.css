@@ -370,7 +370,17 @@
     color: black;
 }
 
-.light_mode #imagen {
+.light_mode #imagen1 {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+.light_mode #imagen2 {
+    background-color: #CBDEF1;
+    color: black;
+}
+
+.light_mode #imagen3 {
     background-color: #CBDEF1;
     color: black;
 }
@@ -382,11 +392,20 @@
     color: white;
 }
 
-.dark_mode #imagen {
+.dark_mode #imagen1 {
     background-color: #324A5F;
     color: white;
 }
 
+.dark_mode #imagen2 {
+    background-color: #324A5F;
+    color: white;
+}
+
+.dark_mode #imagen3 {
+    background-color: #324A5F;
+    color: white;
+}
 
 /*Fin de temas de quienes_somos*/
 
