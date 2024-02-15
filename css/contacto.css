@@ -106,26 +106,29 @@ main {
     justify-content: center;
     width: 32%;
     border-radius: 30px;
+    padding: 40px;
     box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.322);
-    margin: auto;
+    margin: 20px;
+}
+
+.lugares :hover{
+  transform: scale(1.05);
+  transition: 0.2s;
 }
 
 #imagen1{
   width: 100%;
   height: 100%;
-  padding: 50px 50px;
 }
 
 #imagen2{
   width: 100%;
   height: 100%;
-  padding: 50px 50px;
 }
 
 #imagen3{
   width: 100%;
   height: 100%;
-  padding: 50px 50px;
 }
 
 .ubicacion{
@@ -150,6 +153,11 @@ main {
     border-radius: 30px;
     box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.322);
     margin: auto;
+}
+
+.mapa :hover{
+  transform: scale(1.05);
+  transition: 0.2s;
 }
 
 .correo{
