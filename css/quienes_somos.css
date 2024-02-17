@@ -116,6 +116,11 @@ main {
     height: 100%;
 }
 
+#foto_raul{
+  width: 52%;
+  min-height: 100%;
+}
+
 figcaption{
   margin: 50px;
   margin-top: 20px;
